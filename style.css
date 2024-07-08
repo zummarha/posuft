@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  background-color: blanchedalmond;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo {
+  color: rgb(4, 133, 0);
+  font-family: "roboto";
+  cursor: default;
+  transition: 0.3s;
+}
+
+#titulo:hover {
+  scale: 1.5;
+  color: rgb(7, 221, 0);
+}
+
+#titulo:active {
+  scale: 0.75;
+  color: rgb(4, 107, 0);
+}
