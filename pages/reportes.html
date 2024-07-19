@@ -2,13 +2,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="icon" type="image/ico" href="/img/posuft_logo.ico"/>
     <title>UFTPOS</title>
   </head>
   <body>
     <div class="contenedor">
-      <h2>Inventario</h2>
+      <h2>Reportes</h2>
       <div class="header">
       <nav class="nav-header">
           <h4>POSUFT</h4>
@@ -21,7 +21,7 @@
         <table>
           <thead>
             <tr>
-              <th>✅</th>
+              <th>Fecha</th>
               <th>Codigo</th>
               <th>Producto</th>
               <th>Cantidad</th>
@@ -31,7 +31,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><input type="checkbox" /></td>
+              <td>01/01/01</td>
               <td>001</td>
               <td>Producto A</td>
               <td>10</td>
@@ -39,7 +39,7 @@
               <td>$10.00</td>
             </tr>
             <tr>
-              <td><input type="checkbox" /></td>
+              <td>02/01/01</td>
               <td>002</td>
               <td>Producto B</td>
               <td>15</td>
@@ -47,7 +47,7 @@
               <td>$14.00</td>
             </tr>
             <tr>
-              <td><input type="checkbox" /></td>
+              <td>03/01/01</td>
               <td>003</td>
               <td>Producto C</td>
               <td>18</td>
@@ -59,16 +59,11 @@
       </div>
 
       <div class="footer">
-        <div class="contenedor_botones">
-        <button class="botonesred"><p>Eliminar Producto</p></button>
-        <button class="botones">Modificar</button>
-        <button class="botones">Nuevo Producto</button>
-        <button class="botones"><a href="./pages/reportes.html">Historial</a></button>
-        <button class="botones">Ingresar/Egresar</button>
-        </div>
+        <button class="boton_inventario"><a href="/index.html">⬅️Inventario</a></button>
+        <p class="derechos">Copyright © 2024 POSUFT. All rights reserved.</p>
 
         <div id="contenedor_vender">
-        <button id="vender"><h3>Vender</h3></button>
+        <button id="reporte"><h3>Generar Reporte</h3></button>
       </div>
 
       </div>
